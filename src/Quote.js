@@ -2,11 +2,11 @@ import React from 'react';
 import QuoteHeader from './QuoteHeader';
 import QuoteBody from './QuoteBody';
 
-const Quote = props => {
+const Quote = ({ id, content, comments }) => {
   return (
     <div className="card">
-      <QuoteHeader />
-      <QuoteBody />
+      <QuoteHeader id={id} content={content} />
+      <QuoteBody id={id} comments={comments} />
     </div>
   );
 };
