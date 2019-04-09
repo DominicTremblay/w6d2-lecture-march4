@@ -1,6 +1,8 @@
 # Lecture W6D2
 
-- clone the repo
+- clone this current repo for the client
+- clone this repo for the backend:
+  - [backend repo](https://github.com/DominicTremblay/w3d4-lecture-march4)
 - you have to run both client and backend
 
   - `npm install` in the current folder for the client
